@@ -1,0 +1,43 @@
+// GLOBAL SETTINGS
+
+.container {
+    max-width: 1600px;
+}
+
+// INDEX PAGE
+
+.hero {
+  background-image: url(/img/index_hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.index-header {
+  padding-top: 150px;
+  .col-md-7 {
+    h5 {
+      text-transform: uppercase;
+      padding-bottom: 25px;
+    }
+    @media (min-width: 1400px) {
+      padding-right: 100px;
+      letter-spacing: 0.15rem;
+      line-height: 2;
+    }
+  }
+}
+
+.regions {
+  padding-top: 150px;
+  h1 {
+    padding-bottom: 80px;
+  }
+  img {
+    padding-bottom: 100px;
+  }
+  &__alaskaInterior {
+    background-image: url(/img/anchorage.jpg);
+    background-size: cover;
+  }
+}

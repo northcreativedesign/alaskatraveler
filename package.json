@@ -1,0 +1,21 @@
+{
+  "name": "alaskatraveler",
+  "version": "1.0.0",
+  "description": "A Progressive App To Help People Looking To Travel To The Last Frontier",
+  "main": "app.js",
+  "scripts": {
+    "build-css": "node-sass --include-path scss assets/scss/app.scss assets/css/app.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.0",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "jquery": "^3.3.1",
+    "node-sass": "^4.9.0",
+    "npm": "^6.0.0",
+    "popper.js": "^1.14.3"
+  }
+}

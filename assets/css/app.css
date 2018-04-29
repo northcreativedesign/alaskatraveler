@@ -1,0 +1,29 @@
+.container {
+  max-width: 1600px; }
+
+.hero {
+  background-image: url(/img/index_hero.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh; }
+
+.index-header {
+  padding-top: 150px; }
+  .index-header .col-md-7 h5 {
+    text-transform: uppercase;
+    padding-bottom: 25px; }
+  @media (min-width: 1400px) {
+    .index-header .col-md-7 {
+      padding-right: 100px;
+      letter-spacing: 0.15rem;
+      line-height: 2; } }
+
+.regions {
+  padding-top: 150px; }
+  .regions h1 {
+    padding-bottom: 80px; }
+  .regions img {
+    padding-bottom: 100px; }
+  .regions__alaskaInterior {
+    background-image: url(/img/anchorage.jpg);
+    background-size: cover; }
