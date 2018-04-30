@@ -18,12 +18,20 @@
       letter-spacing: 0.15rem;
       line-height: 2; } }
 
-.regions {
-  padding-top: 150px; }
-  .regions h1 {
+.akdestinations {
+  padding-top: 150px;
+  padding-bottom: 100px; }
+  .akdestinations h1 {
     padding-bottom: 80px; }
-  .regions img {
-    padding-bottom: 100px; }
-  .regions__alaskaInterior {
+  .akdestinations__anchorageArea {
     background-image: url(/img/anchorage.jpg);
-    background-size: cover; }
+    background-size: cover;
+    height: 400px; }
+  .akdestinations__juneauArea {
+    background-image: url(/img/juneau.jpg);
+    background-size: cover;
+    height: 400px; }
+  .akdestinations__ketchikanArea {
+    background-image: url(/img/ketchikan.jpg);
+    background-size: cover;
+    height: 400px; }

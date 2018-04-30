@@ -28,16 +28,25 @@
   }
 }
 
-.regions {
+.akdestinations {
   padding-top: 150px;
+  padding-bottom: 100px;
   h1 {
     padding-bottom: 80px;
   }
-  img {
-    padding-bottom: 100px;
-  }
-  &__alaskaInterior {
+  &__anchorageArea {
     background-image: url(/img/anchorage.jpg);
     background-size: cover;
+    height: 400px;
+  }
+  &__juneauArea {
+    background-image: url(/img/juneau.jpg);
+    background-size: cover;
+    height: 400px;
+  }
+  &__ketchikanArea {
+    background-image: url(/img/ketchikan.jpg);
+    background-size: cover;
+    height: 400px;
   }
 }
